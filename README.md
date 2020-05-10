@@ -8,4 +8,4 @@ KNN Model Overview: (MODEL 2)
 - Utilized Grid Search to optimize parameters 
 - Optimal parameters found: {'metric': 'manhattan', 'n_neighbors': 15, 'weights': 'distance'}
 - Accuracy achieved: 0.832365003417635
-- Conclusion: this model could definitely be used for classifying exoplanet candidates, but should sought to be improved upon 
+- Conclusion: this model could definitely be used for classifying exoplanet candidates, but given the successes and promise of Deep Neural Network Models, it be should sought to be improved upon 
