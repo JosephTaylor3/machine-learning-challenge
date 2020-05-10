@@ -1,11 +1,12 @@
 # machine-learning-challenge
 Machine Learning Homework
 
-Comparison and Evaluation of Models: 
-Originally, my intent was to compare a KNN model versus a Deep Neural Network with 2 hidden layers, with the expectation that the NN would outperform the KNN significantly. However, I had difficulty tuning the NN, and was unable to produce a NN model that provided any significant accuracy. This is not to say that a properly developed NN would not have outperformed the KNN, but in this instance the best performing that I was able to create was the KNN. 
+Overview: 
+I compared a KNN, SVM and Deep Neural Network models on the data set, and found that all models had very high accuracy and provided very strong predictive power for determining whether an exoplanet would be confirmed as a planet or a false-positive. In fact, each of the models had an accuracy of at least 0.99. 
 
-KNN Model Overview: (MODEL 2)
-- Utilized Grid Search to optimize parameters 
-- Optimal parameters found: {'metric': 'manhattan', 'n_neighbors': 15, 'weights': 'distance'}
-- Accuracy achieved: 0.832365003417635
-- Conclusion: this model could definitely be used for classifying exoplanet candidates, but given the successes and promise of Deep Neural Network Models, it be should sought to be improved upon 
+Comparison and Evaluation of Models: 
+Originally, my intent was to compare a KNN model and SVM model versus a Deep Neural Network with 2 hidden layers, with the expectation that the NN would outperform the KNN and SVM significantly. However, I found that each model provided very high accuracy. All-together, no one model can be selected in favor of another. The benefit of NN measurements over KNN and SVM is that it provides a measurment of loss. Therefore it has been selected as the optimal model for classifying exoplanets.  
+
+Neural Network ModeL (MODEL 1): 
+- Accuracy achieved: Loss: 0.04991698706496645, Accuracy: 0.9900530576705933
+- Conclusion: this model could definitely be used for classifying exoplanet candidates
